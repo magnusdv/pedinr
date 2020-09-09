@@ -37,7 +37,6 @@ Alternatively, links to the individual datasets are listed below.
 
   * [reconstruct-trio.ped](datasets/data/reconstruct-trio.ped)
 
-
 #### The ***reconstruct-fathers*** dataset:
 
   * [reconstruct-fathers.ped](datasets/data/reconstruct-fathers.ped)
