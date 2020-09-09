@@ -1,0 +1,6 @@
+name: "pedinr"
+output_dir: "docs"
+navbar:
+  title: "Pedigree analysis in R"
+output:
+  html_document
