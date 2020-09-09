@@ -5,4 +5,4 @@ title: "Pedigree analysis in R"
 This is the homepage of the book **Pedigree analysis in R**. Here you will find the datasets used in the book, as well as source code for many of the figures.
 
 # Datasets
-Here is [a nice dataset](data/riddle-pairwise.ped).
+Here is [a nice dataset](datasets/riddle-pairwise.ped).
