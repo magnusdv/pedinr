@@ -9,7 +9,6 @@
 #
 # Contents: Genotypes for 4 individuals typed with 500 equifrequent SNPs.
 #
-
 library(forrel)
 
 # Create pedigree
@@ -27,3 +26,4 @@ df$fid = df$mid = 0
 
 # Write to file
 write.table(df, file = "data/reconstruct-example.ped", quote = F, row.names = F)
+

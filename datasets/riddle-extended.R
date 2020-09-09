@@ -12,7 +12,6 @@
 # relatives. The genotypes of the three new individuals are simulated
 # conditional on the original pairwise data.
 #
-
 library(forrel)
 seed = 42
 
@@ -46,3 +45,4 @@ y = lapply(paste0("S", 1:5), function(s) subset(x, s))
 
 # Write ped file
 writePed(y, prefix = "data/riddle-extended", header = T)
+

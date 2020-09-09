@@ -16,7 +16,6 @@
 # The markers used are the 15 first markers of the database
 # `NorwegianFrequencies`, available in **forrel**.
 #
-
 library(forrel)
 
 # Pedigree
@@ -35,3 +34,4 @@ x = list(subset(hs, "S1"), subset(hs, "S2"))
 
 # Write ped file
 writePed(x, prefix = "data/riddle-pairwise", header = T)
+

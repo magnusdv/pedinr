@@ -9,7 +9,6 @@
 #
 # Contents: Genotypes for three individuals typed with 400 SNPs.
 #
-
 library(forrel)
 
 # Pedigree
@@ -26,3 +25,4 @@ df = cbind(famid = 1:3, df)
 
 # Write ped file
 write.table(df, "data/reconstruct-trio.ped", quote = F, row.names = F)
+
