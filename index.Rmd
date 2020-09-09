@@ -2,7 +2,44 @@
 title: "Pedigree analysis in R"
 ---
 
-This is the homepage of the book **Pedigree analysis in R**. Here you will find the datasets used in the book, as well as source code for many of the figures.
+This is the homepage of the book **Pedigree analysis in R**.
 
-# Datasets
-Here is [a nice dataset](datasets/riddle-pairwise.ped).
+## Datasets
+Here you will find links to the datasets used in the book. Source code for generating the data are available at the GitHub repository, https://github.com/magnusdv/pedinr.
+
+A zip file containing all the datasets may be downloaded here: [data.zip](datasets/data.zip)
+
+Alternatively, links to the individual datasets are listed below.
+
+#### The ***riddle-pairwise*** dataset:
+
+  * [riddle-pairwise.ped](datasets/data/riddle-pairwise.ped)
+
+#### The ***riddle-extended*** dataset:
+
+  * [riddle-extended.ped](datasets/data/riddle-extended.ped)
+  
+#### The ***mpi-example*** dataset:
+
+  * [mpi-example.ped](datasets/data/mpi-example.ped)
+  * [mpi-example.freq](datasets/data/mpi-example.freq)
+
+#### The ***linkage-example*** dataset:
+
+  * [linkage-example.ped](datasets/data/linkage-example.ped)
+  * [linkage-example.map](datasets/data/linkage-example.map)
+
+#### The ***reconstruct-example*** dataset:
+
+  * [reconstruct-example.ped](datasets/data/reconstruct-example.ped)
+
+#### The ***reconstruct-trio*** dataset:
+
+  * [reconstruct-trio.ped](datasets/data/reconstruct-trio.ped)
+
+
+#### The ***reconstruct-fathers*** dataset:
+
+  * [reconstruct-fathers.ped](datasets/data/reconstruct-fathers.ped)
+  * [reconstruct-fathers.freq](datasets/data/reconstruct-fathers.freq)
+
