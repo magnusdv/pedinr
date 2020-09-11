@@ -13,11 +13,11 @@ Alternatively, links to the individual datasets are listed below.
 
 #### The ***kinship-riddle*** dataset:
 
-  * [riddle-pairwise.ped](datasets/data/riddle-pairwise.ped)
+  * [kinship-riddle.ped](datasets/data/kinship-riddle.ped)
 
 #### The ***kinship-riddle-extended*** dataset:
 
-  * [riddle-extended.ped](datasets/data/riddle-extended.ped)
+  * [kinship-riddle-extended.ped](datasets/data/kinship-riddle-extended.ped)
   
 #### The ***mpi-example*** dataset:
 
