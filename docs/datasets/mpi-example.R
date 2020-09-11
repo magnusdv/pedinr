@@ -12,7 +12,6 @@
 # The ped file describes a pedigree with 6 individuals typed with 20 STR
 # markers. The freq file contains allele frequencies for each marker.
 #
-
 library(forrel)
 
 set.seed(42)
@@ -43,3 +42,4 @@ peds = list(Reference = ref, POI1 = poi1, POI2 = poi2)
 
 # Write ped file
 writePed(peds, prefix = "data/mpi-example", what = c("ped", "freq"), header = T)
+

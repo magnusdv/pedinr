@@ -2,21 +2,20 @@
 # Dataset for use in *Pedigree analysis in R*.
 #---------------------------------------------
 #
-# Dataset: `riddle-extended`
+# Dataset: `kinship-riddle-extended`
 #
 # Files generated:
-#  * `riddle-extended.ped`
+#  * `kinship-riddle-extended.ped`
 #
 # Contents:
-# This dataset extends the `riddle-pairwise` dataset by adding three female
+# This dataset extends the `kinship-riddle` dataset by adding three female
 # relatives. The genotypes of the three new individuals are simulated
 # conditional on the original pairwise data.
 #
-
 library(forrel)
 seed = 42
 
-### Step 1: Create `hs` as in `riddle-pairwise.R`
+### Step 1: Create `hs` as in `kinship-riddle.R`
 
 # Pedigree
 ids = c("S1", "S2")
@@ -45,4 +44,5 @@ x = profileSim(x, N = 1, ids = c("S3", "S4", "S5"), seed = seed, numCores = 1)[[
 y = lapply(paste0("S", 1:5), function(s) subset(x, s))
 
 # Write ped file
-writePed(y, prefix = "data/riddle-extended", header = T)
+writePed(y, prefix = "data/kinship-riddle-extended", header = T)
+

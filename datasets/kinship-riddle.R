@@ -2,10 +2,10 @@
 # Dataset for use in *Pedigree analysis in R*.
 #---------------------------------------------
 #
-# Dataset: `riddle-pairwise`
+# Dataset: `kinship-riddle`
 #
 # Files generated:
-#  * `riddle-pairwise.ped`
+#  * `kinship-riddle.ped`
 #
 # Contents:
 # This dataset contains genotypes for two males, S1 and S2. The ped file is
@@ -33,5 +33,5 @@ hs = profileSim(hs, N = 1, ids = ids, seed = 42, numCores = 1)[[1]]
 x = list(subset(hs, "S1"), subset(hs, "S2"))
 
 # Write ped file
-writePed(x, prefix = "data/riddle-pairwise", header = T)
+writePed(x, prefix = "data/kinship-riddle", header = T)
 

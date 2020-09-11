@@ -12,7 +12,6 @@
 # genotype data for 14 members typed with 248 SNPs on chromosome 1.
 # The marker positions are given in the map file.
 #
-
 library(ibdsim2)
 
 # Pedigree
@@ -60,3 +59,4 @@ map = data.frame(chrom = 1, marker = paste0("m", 1:248), mb = 1:248,
 writePed(y, what = "ped", prefix = "data/linkage-example")
 write.table(map, file = "data/linkage-example.map", quote = F,
             row.names = F)
+

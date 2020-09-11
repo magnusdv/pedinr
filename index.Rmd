@@ -11,11 +11,11 @@ A zip file containing all the datasets may be downloaded here: [data.zip](datase
 
 Alternatively, links to the individual datasets are listed below.
 
-#### The ***riddle-pairwise*** dataset:
+#### The ***kinship-riddle*** dataset:
 
   * [riddle-pairwise.ped](datasets/data/riddle-pairwise.ped)
 
-#### The ***riddle-extended*** dataset:
+#### The ***kinship-riddle-extended*** dataset:
 
   * [riddle-extended.ped](datasets/data/riddle-extended.ped)
   
@@ -41,4 +41,8 @@ Alternatively, links to the individual datasets are listed below.
 
   * [reconstruct-fathers.ped](datasets/data/reconstruct-fathers.ped)
   * [reconstruct-fathers.freq](datasets/data/reconstruct-fathers.freq)
+
+#### The ***segregation-hsp*** dataset:
+
+  * [segregation-hsp.ped](datasets/data/segregation-hsp.ped)
 

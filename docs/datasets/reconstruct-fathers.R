@@ -6,10 +6,9 @@
 #  * `reconstruct-fathers.ped`
 #  * `reconstruct-fathers.freq`
 #
-# The files contains STR data for two sisters and their (in total) three
-# children.
+# Contents: The files contains STR data for two sisters and their (in total)
+# three children.
 #
-
 library(forrel)
 
 # Pedigree
@@ -35,3 +34,4 @@ df = cbind(famid = 1:5, df)
 # Write ped & freq files
 write.table(df, "data/reconstruct-fathers.ped", quote = F, row.names = F)
 writeFreqDatabase(s, "data/reconstruct-fathers.freq")
+
