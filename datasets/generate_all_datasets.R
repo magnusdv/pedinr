@@ -4,7 +4,9 @@ setwd("datasets")
 # Remove data folder
 unlink("data", recursive = T)
 unlink("data.zip")
+dir.create("data")
 
+source("trio-example.R")
 source("kinship-riddle.R")
 source("kinship-riddle-extended.R")
 source("mpi-example.R")
