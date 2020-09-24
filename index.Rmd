@@ -11,6 +11,10 @@ A zip file containing all the datasets may be downloaded here: [data.zip](datase
 
 Alternatively, links to the individual datasets are listed below.
 
+#### The ***trio-example*** dataset:
+
+  * [trio-example.ped](datasets/data/trio-example.ped)
+
 #### The ***kinship-riddle*** dataset:
 
   * [kinship-riddle.ped](datasets/data/kinship-riddle.ped)
