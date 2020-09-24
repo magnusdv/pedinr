@@ -5,7 +5,7 @@
 # Dataset: `trio-example`
 #
 # Files generated:
-#  * `trio-example.ped`
+#  * `trio-example.txt`
 #
 # Contents:
 # This file describes a trio with genotypes for a singe marker. Its purpose is
@@ -13,12 +13,12 @@
 #
 
 # Data frame in ped format
-df = data.frame(ID = c("Fa", "Mo", "Ch"),
+df = data.frame(ID = c("Fa", "Mo", "Girl"),
                 FID = c(0,0,"Fa"),
                 MID = c(0,0, "Mo"),
-                SEX = c(1,2,1),
-                "M.1" = c("a", 0, "a"),
-                "M.2" = c("a", 0, "b"), check.names = F)
+                SEX = c(1,2,2),
+                "M.1" = c(0, "a", "c"),
+                "M.2" = c(0, "c", "c"), check.names = F)
 
 # Write to file
-write.table(df, file = "data/trio-example.ped", quote = F, row.names = F, sep = "\t")
+write.table(df, file = "data/trio-example.txt", quote = F, row.names = F, sep = "\t")

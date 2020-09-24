@@ -13,7 +13,7 @@ Alternatively, links to the individual datasets are listed below.
 
 #### The ***trio-example*** dataset:
 
-  * [trio-example.ped](datasets/data/trio-example.ped)
+  * [trio-example.txt](datasets/data/trio-example.txt)
 
 #### The ***kinship-riddle*** dataset:
 

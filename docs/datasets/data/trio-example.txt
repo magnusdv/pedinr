@@ -1,0 +1,4 @@
+ID	FID	MID	SEX	M.1	M.2
+Fa	0	0	1	0	0
+Mo	0	0	2	a	c
+Girl	Fa	Mo	2	c	c
